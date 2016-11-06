@@ -5,7 +5,7 @@ MAINTAINER Maxime Odye, https://github.com/modye
 WORKDIR /opt/elastalert
 
 # Download elastalert
-RUN wget https://github.com/Yelp/elastalert/archive/v0.1.2.tar.gz && tar -xvf v0.1.2.tar.gz
+RUN wget https://github.com/Yelp/elastalert/archive/v0.1.3.tar.gz && tar -xvf v0.1.3.tar.gz
 
 WORKDIR ./elastalert-0.1.2
 
